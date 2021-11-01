@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  background-color: #313638;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container > h1 {
+  margin-top: 1rem;
+  color: #e8e9eb;
+}
+
+.acciones {
+  width: 80%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.acciones > button {
+  margin: 0 15px;
+  width: 85px;
+  height: 40px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.select {
+  background-color: #f09d51;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+button.notselect {
+  background-color: #e8e9eb;
+  color: #313638;
+  transition: 0.4s ease-in-out;
+}
